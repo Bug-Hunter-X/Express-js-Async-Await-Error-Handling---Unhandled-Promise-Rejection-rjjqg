@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Express.js applications when using async/await for database queries. The problem arises when an asynchronous database query fails to find a user, leading to an unhandled promise rejection. The solution shows the correct method of error handling within an async function using try...catch blocks.
